@@ -1,0 +1,294 @@
+PS C:\Users\soumi\Downloads\agentic-starter-kits\agentic-starter-kits> 
+ *  History restored 
+
+PS C:\Users\soumi\Downloads\agentic-starter-kits> cd agentic-starter-kits
+PS C:\Users\soumi\Downloads\agentic-starter-kits\agentic-starter-kits> cd crewai-kit
+PS C:\Users\soumi\Downloads\agentic-starter-kits\agentic-starter-kits\crewai-kit> uv run python main.py "Multi-Agent Worshop"
+╭─────────────────────────────────────────────────────────────────────────────────────────────────────── ✨ Update Available ✨ ───────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                                                                                                      │
+│  A new version of CrewAI is available!                                                                                                                                                                                               │
+│                                                                                                                                                                                                                                      │
+│  Current version: 1.15.27                                                                                                                                                                                                            │
+│  Latest version:  1.15.28                                                                                                                                                                                                            │
+│                                                                                                                                                                                                                                      │
+│  To update, run: uv sync --upgrade-package crewai                                                                                                                                                                                    │
+│                                                                                                                                                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────────────────────────────────────────────────────────── 🚀 Crew Execution Started ──────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                                                                                                      │
+│  Crew Execution Started                                                                                                                                                                                                              │
+│  Name: crew                                                                                                                                                                                                                          │
+│  ID: e9dc04ea-35e9-4134-b2ca-2f8c998eae42                                                                                                                                                                                            │
+│                                                                                                                                                                                                                                      │
+│                                                                                                                                                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────────────────────────────────────────────────── 📋 Task Started ───────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                                                                                                      │
+│  Task Started                                                                                                                                                                                                                        │
+│  Name: Research Multi-Agent Worshop. List 5 key facts and 2 open questions.                                                                                                                                                          │
+│  ID: f59b1687-f7dc-4572-8fe5-27506843b61c                                                                                                                                                                                            │
+│                                                                                                                                                                                                                                      │
+│                                                                                                                                                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────────────────────────────────────────────────── 🤖 Agent Started ──────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                                                                                                      │
+│  Agent: Research Analyst                                                                                                                                                                                                             │
+│                                                                                                                                                                                                                                      │
+│  Task: Research Multi-Agent Worshop. List 5 key facts and 2 open questions.                                                                                                                                                          │
+│                                                                                                                                                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────────────────────────────────────────────────────────── ✅ Agent Final Answer ────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                                                                                                      │
+│  Agent: Research Analyst                                                                                                                                                                                                             │
+│                                                                                                                                                                                                                                      │
+│  Final Answer:                                                                                                                                                                                                                       │
+│  **Research Brief: Multi‑Agent Workshop**                                                                                                                                                                                            │
+│                                                                                                                                                                                                                                      │
+│  **Key Facts**                                                                                                                                                                                                                       │
+│                                                                                                                                                                                                                                      │
+│  - **Purpose‑Driven Collaboration:** A Multi‑Agent Workshop (MAW) is a structured, time‑bounded event that brings together researchers, developers, and domain experts to design, prototype, and evaluate systems composed of        │
+│  multiple autonomous agents that interact and coordinate to achieve shared goals.                                                                                                                                                    │
+│  - **Interdisciplinary Participation:** Typical attendees span AI/ML, robotics, economics, cognitive science, and human‑computer interaction, reflecting the need for expertise in algorithmic coordination, incentive design, and   │
+│  user experience.                                                                                                                                                                                                                    │
+│  - **Iterative Prototyping Cycle:** Workshops usually follow a rapid‑iteration cycle (design → implementation → simulation/real‑world testing → analysis) within a few days, allowing participants to test coordination protocols    │
+│  (e.g., market‑based, contract‑net, reinforcement‑learning) on shared benchmark scenarios.                                                                                                                                           │
+│  - **Open‑Source Artefacts:** Most recent MAWs produce publicly released code repositories, datasets, and evaluation scripts (e.g., the “Multi‑Agent Coordination Suite” on GitHub) to enable reproducibility and community‑wide     │
+│  benchmarking.                                                                                                                                                                                                                       │
+│  - **Emerging Standards & Metrics:** A consensus is forming around standard performance metrics such as **collective reward**, **fairness/egalitarianism**, **communication overhead**, and **robustness to agent failure**, which   │
+│  are documented in workshop proceedings and used to compare disparate multi‑agent approaches.                                                                                                                                        │
+│                                                                                                                                                                                                                                      │
+│  **Open Questions**                                                                                                                                                                                                                  │
+│                                                                                                                                                                                                                                      │
+│  - **Scalability of Coordination Mechanisms:** How do current coordination protocols (e.g., decentralized learning, market mechanisms) perform when scaling from dozens to thousands of heterogeneous agents in real‑world           │
+│  environments, and what new theoretical guarantees are needed?                                                                                                                                                                       │
+│  - **Human‑Agent Interaction Governance:** What frameworks or normative guidelines should govern the interaction between autonomous agents and human stakeholders in multi‑agent deployments to ensure transparency,                 │
+│  accountability, and alignment with societal values?                                                                                                                                                                                 │
+│                                                                                                                                                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────────────────────────────────────────────────────────────── 📋 Task Completion ─────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                                                                                                      │
+│  Task Completed                                                                                                                                                                                                                      │
+│  Name: Research Multi-Agent Worshop. List 5 key facts and 2 open questions.                                                                                                                                                          │
+│  Agent: Research Analyst                                                                                                                                                                                                             │
+│                                                                                                                                                                                                                                      │
+│                                                                                                                                                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────────────────────────────────────────────────── 📋 Task Started ───────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                                                                                                      │
+│  Task Started                                                                                                                                                                                                                        │
+│  Name: Using the research brief, write a 250-word explainer on Multi-Agent Worshop.                                                                                                                                                  │
+│  ID: 6b7131cc-ec05-4c3f-8d58-b3432b15989b                                                                                                                                                                                            │
+│                                                                                                                                                                                                                                      │
+│                                                                                                                                                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────────────────────────────────────────────────── 🤖 Agent Started ──────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                                                                                                      │
+│  Agent: Technical Writer                                                                                                                                                                                                             │
+│                                                                                                                                                                                                                                      │
+│  Task: Using the research brief, write a 250-word explainer on Multi-Agent Worshop.                                                                                                                                                  │
+│                                                                                                                                                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────────────────────────────────────────────────────────── ✅ Agent Final Answer ────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                                                                                                      │
+│  Agent: Technical Writer                                                                                                                                                                                                             │
+│                                                                                                                                                                                                                                      │
+│  Final Answer:                                                                                                                                                                                                                       │
+│  Multi‑Agent Workshop (MAW) is a short, focused gathering where people from different fields team up to build and test systems made of many independent software agents that must work together. Think of each agent as a tiny       │
+│  robot or program that can act on its own, but the overall goal—like delivering packages, managing traffic, or allocating resources—requires them to coordinate. The workshop brings together AI researchers, roboticists,           │
+│  economists, cognitive scientists, and user‑experience designers so that every piece of the puzzle—algorithms, incentives, and human interaction—gets expert attention.                                                              │
+│                                                                                                                                                                                                                                      │
+│  During the event participants follow a rapid‑iteration loop: they sketch a coordination idea, write a prototype, run it in a shared simulation or on real hardware, and then analyse the results. This cycle repeats over a few     │
+│  days, letting teams quickly discover what works and what does not. Common coordination styles include market‑based bidding, contract‑net negotiations, and reinforcement‑learning policies that evolve through trial and error.     │
+│                                                                                                                                                                                                                                      │
+│  All code, data sets, and evaluation scripts are released openly, often on platforms like GitHub, creating a public “Multi‑Agent Coordination Suite” that anyone can reuse. The community is also converging on a set of standard    │
+│  metrics—collective reward, fairness, communication cost, and robustness to agent failure—to compare different approaches fairly.                                                                                                    │
+│                                                                                                                                                                                                                                      │
+│  Open questions remain. Researchers wonder how these coordination mechanisms scale from dozens to thousands of heterogeneous agents in real‑world settings, and what theoretical guarantees are needed. Another challenge is         │
+│  defining clear rules for how autonomous agents should interact with humans, ensuring transparency, accountability, and alignment with societal values. drives rapid innovation.                                                     │
+│                                                                                                                                                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────────────────────────────────────────────────────────────── 📋 Task Completion ─────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                                                                                                      │
+│  Task Completed                                                                                                                                                                                                                      │
+│  Name: Using the research brief, write a 250-word explainer on Multi-Agent Worshop.                                                                                                                                                  │
+│  Agent: Technical Writer                                                                                                                                                                                                             │
+│                                                                                                                                                                                                                                      │
+│                                                                                                                                                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────────────────────────────────────────────────── 📋 Task Started ───────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                                                                                                      │
+│  Task Started                                                                                                                                                                                                                        │
+│  Name: Edit the explainer. Tighten it and mark any claim needing a source.                                                                                                                                                           │
+│  ID: 08111c65-b29f-4726-9f37-09e6b0d46160                                                                                                                                                                                            │
+│                                                                                                                                                                                                                                      │
+│                                                                                                                                                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────────────────────────────────────────────────── 🤖 Agent Started ──────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                                                                                                      │
+│  Agent: Editor                                                                                                                                                                                                                       │
+│                                                                                                                                                                                                                                      │
+│  Task: Edit the explainer. Tighten it and mark any claim needing a source.                                                                                                                                                           │
+│                                                                                                                                                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────────────────────────────────────────────────────────── ✅ Agent Final Answer ────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                                                                                                      │
+│  Agent: Editor                                                                                                                                                                                                                       │
+│                                                                                                                                                                                                                                      │
+│  Final Answer:                                                                                                                                                                                                                       │
+│  **Multi‑Agent Workshop (MAW) Overview**                                                                                                                                                                                             │
+│                                                                                                                                                                                                                                      │
+│  A Multi‑Agent Workshop (MAW) is a short, time‑bounded event that brings together researchers, developers, and domain experts to design, prototype, and evaluate systems composed of multiple autonomous agents that must            │
+│  coordinate to achieve shared objectives. Participants typically represent AI/ML, robotics, economics, cognitive science, and human‑computer interaction, reflecting the interdisciplinary expertise required for algorithmic        │
+│  coordination, incentive design, and user experience. [source needed]                                                                                                                                                                │
+│                                                                                                                                                                                                                                      │
+│  **Iterative Prototyping Cycle**                                                                                                                                                                                                     │
+│                                                                                                                                                                                                                                      │
+│  During the workshop, teams follow a rapid‑iteration loop:                                                                                                                                                                           │
+│  1. Propose a coordination mechanism (e.g., market‑based bidding, contract‑net negotiation, reinforcement‑learning policy).                                                                                                          │
+│  2. Implement a prototype.                                                                                                                                                                                                           │
+│  3. Test it in a shared simulation or on real hardware.                                                                                                                                                                              │
+│  4. Analyse the results and refine the design.                                                                                                                                                                                       │
+│                                                                                                                                                                                                                                      │
+│  This cycle repeats over a few days, allowing quick identification of effective approaches. [source needed]                                                                                                                          │
+│                                                                                                                                                                                                                                      │
+│  **Open‑Source Artefacts**                                                                                                                                                                                                           │
+│                                                                                                                                                                                                                                      │
+│  Most recent MAWs release all code, datasets, and evaluation scripts publicly—often on GitHub—creating a reusable “Multi‑Agent Coordination Suite.” [source needed]                                                                  │
+│                                                                                                                                                                                                                                      │
+│  **Emerging Standards & Metrics**                                                                                                                                                                                                    │
+│                                                                                                                                                                                                                                      │
+│  The community is converging on a core set of performance metrics to enable fair comparison across approaches:                                                                                                                       │
+│                                                                                                                                                                                                                                      │
+│  - **Collective reward** – total payoff achieved by the agent team.                                                                                                                                                                  │
+│  - **Fairness / egalitarianism** – equitable distribution of rewards among agents.                                                                                                                                                   │
+│  - **Communication overhead** – bandwidth or message‑passing cost.                                                                                                                                                                   │
+│  - **Robustness to agent failure** – performance degradation when agents drop out.                                                                                                                                                   │
+│                                                                                                                                                                                                                                      │
+│  These metrics are documented in recent workshop proceedings. [source needed]                                                                                                                                                        │
+│                                                                                                                                                                                                                                      │
+│  **Open Research Questions**                                                                                                                                                                                                         │
+│                                                                                                                                                                                                                                      │
+│  - **Scalability:** How do current coordination protocols (decentralized learning, market mechanisms, etc.) perform when scaling from dozens to thousands of heterogeneous agents in real‑world environments, and what new           │
+│  theoretical guarantees are required? [source needed]                                                                                                                                                                                │
+│                                                                                                                                                                                                                                      │
+│  - **Human‑Agent Governance:** What frameworks or normative guidelines should govern interactions between autonomous agents and human stakeholders to ensure transparency, accountability, and alignment with societal values?       │
+│  [source needed]                                                                                                                                                                                                                     │
+│                                                                                                                                                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭───────────────────────────────────────────────────────────────────────────────────────────────────────── 📋 Task Completion ─────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                                                                                                      │
+│  Task Completed                                                                                                                                                                                                                      │
+│  Name: Edit the explainer. Tighten it and mark any claim needing a source.                                                                                                                                                           │
+│  Agent: Editor                                                                                                                                                                                                                       │
+│                                                                                                                                                                                                                                      │
+│                                                                                                                                                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭────────────────────────────────────────────────────────────────────────────────────────────────────────── Crew Completion ───────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                                                                                                      │
+│  Crew Execution Completed                                                                                                                                                                                                            │
+│  Name: crew                                                                                                                                                                                                                          │
+│  ID: e9dc04ea-35e9-4134-b2ca-2f8c998eae42                                                                                                                                                                                            │
+│  Final Output: **Multi‑Agent Workshop (MAW) Overview**                                                                                                                                                                               │
+│                                                                                                                                                                                                                                      │
+│  A Multi‑Agent Workshop (MAW) is a short, time‑bounded event that brings together researchers, developers, and domain experts to design, prototype, and evaluate systems composed of multiple autonomous agents that must            │
+│  coordinate to achieve shared objectives. Participants typically represent AI/ML, robotics, economics, cognitive science, and human‑computer interaction, reflecting the interdisciplinary expertise required for algorithmic        │
+│  coordination, incentive design, and user experience. [source needed]                                                                                                                                                                │
+│                                                                                                                                                                                                                                      │
+│  **Iterative Prototyping Cycle**                                                                                                                                                                                                     │
+│                                                                                                                                                                                                                                      │
+│  During the workshop, teams follow a rapid‑iteration loop:                                                                                                                                                                           │
+│  1. Propose a coordination mechanism (e.g., market‑based bidding, contract‑net negotiation, reinforcement‑learning policy).                                                                                                          │
+│  2. Implement a prototype.                                                                                                                                                                                                           │
+│  3. Test it in a shared simulation or on real hardware.                                                                                                                                                                              │
+│  4. Analyse the results and refine the design.                                                                                                                                                                                       │
+│                                                                                                                                                                                                                                      │
+│  This cycle repeats over a few days, allowing quick identification of effective approaches. [source needed]                                                                                                                          │
+│                                                                                                                                                                                                                                      │
+│  **Open‑Source Artefacts**                                                                                                                                                                                                           │
+│                                                                                                                                                                                                                                      │
+│  Most recent MAWs release all code, datasets, and evaluation scripts publicly—often on GitHub—creating a reusable “Multi‑Agent Coordination Suite.” [source needed]                                                                  │
+│                                                                                                                                                                                                                                      │
+│  **Emerging Standards & Metrics**                                                                                                                                                                                                    │
+│                                                                                                                                                                                                                                      │
+│  The community is converging on a core set of performance metrics to enable fair comparison across approaches:                                                                                                                       │
+│                                                                                                                                                                                                                                      │
+│  - **Collective reward** – total payoff achieved by the agent team.                                                                                                                                                                  │
+│  - **Fairness / egalitarianism** – equitable distribution of rewards among agents.                                                                                                                                                   │
+│  - **Communication overhead** – bandwidth or message‑passing cost.                                                                                                                                                                   │
+│  - **Robustness to agent failure** – performance degradation when agents drop out.                                                                                                                                                   │
+│                                                                                                                                                                                                                                      │
+│  These metrics are documented in recent workshop proceedings. [source needed]                                                                                                                                                        │
+│                                                                                                                                                                                                                                      │
+│  **Open Research Questions**                                                                                                                                                                                                         │
+│                                                                                                                                                                                                                                      │
+│  - **Scalability:** How do current coordination protocols (decentralized learning, market mechanisms, etc.) perform when scaling from dozens to thousands of heterogeneous agents in real‑world environments, and what new           │
+│  theoretical guarantees are required? [source needed]                                                                                                                                                                                │
+│                                                                                                                                                                                                                                      │
+│  - **Human‑Agent Governance:** What frameworks or normative guidelines should govern interactions between autonomous agents and human stakeholders to ensure transparency, accountability, and alignment with societal values?       │
+│  [source needed]                                                                                                                                                                                                                     │
+│                                                                                                                                                                                                                                      │
+│                                                                                                                                                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+╭─────────────────────────────────────────────────────────────────────────────────────────────────────────── Tracing Status ───────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                                                                                                      │
+│  Info: Tracing is disabled.                                                                                                                                                                                                          │
+│                                                                                                                                                                                                                                      │
+│  To enable tracing, do any one of these:                                                                                                                                                                                             │
+│  • Set tracing=True in your Crew/Flow code                                                                                                                                                                                           │
+│  • Set CREWAI_TRACING_ENABLED=true in your project's .env file                                                                                                                                                                       │
+│  • Run: crewai traces enable                                                                                                                                                                                                         │
+│                                                                                                                                                                                                                                      │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+=== FINAL OUTPUT (also saved to output/explainer.md) ===
+
+**Multi‑Agent Workshop (MAW) Overview**
+
+A Multi‑Agent Workshop (MAW) is a short, time‑bounded event that brings together researchers, developers, and domain experts to design, prototype, and evaluate systems composed of multiple autonomous agents that must coordinate to achieve shared objectives. Participants typically represent AI/ML, robotics, economics, cognitive science, and human‑computer interaction, reflecting the interdisciplinary expertise required for algorithmic coordination, incentive design, and user experience. [source needed]
+
+**Iterative Prototyping Cycle**
+
+During the workshop, teams follow a rapid‑iteration loop:  
+1. Propose a coordination mechanism (e.g., market‑based bidding, contract‑net negotiation, reinforcement‑learning policy).  
+2. Implement a prototype.  
+3. Test it in a shared simulation or on real hardware.  
+4. Analyse the results and refine the design.  
+
+This cycle repeats over a few days, allowing quick identification of effective approaches. [source needed]
+
+**Open‑Source Artefacts**
+
+Most recent MAWs release all code, datasets, and evaluation scripts publicly—often on GitHub—creating a reusable “Multi‑Agent Coordination Suite.” [source needed]
+
+**Emerging Standards & Metrics**
+
+The community is converging on a core set of performance metrics to enable fair comparison across approaches:  
+
+- **Collective reward** – total payoff achieved by the agent team.  
+- **Fairness / egalitarianism** – equitable distribution of rewards among agents.  
+- **Communication overhead** – bandwidth or message‑passing cost.  
+- **Robustness to agent failure** – performance degradation when agents drop out.  
+
+These metrics are documented in recent workshop proceedings. [source needed]
+
+**Open Research Questions**
+
+- **Scalability:** How do current coordination protocols (decentralized learning, market mechanisms, etc.) perform when scaling from dozens to thousands of heterogeneous agents in real‑world environments, and what new theoretical guarantees are required? [source needed]
+
+- **Human‑Agent Governance:** What frameworks or normative guidelines should govern interactions between autonomous agents and human stakeholders to ensure transparency, accountability, and alignment with societal values? [source needed]
+                              
